@@ -2,9 +2,12 @@
 HTML,CSS,Javascript,React.js,Ant Design
 
 1.1. Giới thiệu bài toán.
+
 Đề bài: Làm trang web tuyển dụng ngành lập trình.
 Mô tả: Website tuyển dụng ngành lập trình là nơi để đăng những bài viết tuyển dụng liên quan đến các công việc lập trình, cho phép các công ty đăng các công việc (job) lên trên đó và người dùng có thể truy cập lên trang chủ để tìm kiếm công việc phù hợp.
+
 1.2. Trang admin cho nhà tuyển dụng.
+
 - Trang cấu hình thông tin công ty: Tên công ty, email, số điện thoại, địa chỉ, số lượng nhân sự, thời gian làm việc, link website, mô tả ngắn, mô tả chi tiết.
 - Trang quản lý job
 - Tạo job mới: Tên job, tags (html, css, js,... lấy từ api), thành phố, mức lương, mô tả job, trạng thái (bật/tắt), thời gian đăng bài (tự động lấy thời gian hiện tại), idCompany (tự động lấy trong cookie).
@@ -18,7 +21,9 @@ Mô tả: Website tuyển dụng ngành lập trình là nơi để đăng nhữ
 - Chi tiết CV:
     + Thông tin ứng viên: Họ tên, ngày gửi, số điện thoại, email, giới thiệu bản thân, thành phố     ứng tuyển, danh sách link project đã làm.
     + Thông tin job mà ứng viên đã ứng tuyển: Tên job, tags, mức lương, mô tả!
+    + 
   1.3. Trang web cho người dùng vào tìm việc.
+      
 -  Trang chủ:
     + Nút đăng ký làm nhà tuyển dụng.
     + Hiển thị dropdown chọn thành phố + thanh search để người dùng tìm kiếm việc. Ví dụ: Hà         Nội, TP. Hồ Chí Minh, Đà Nẵng, …
@@ -53,7 +58,9 @@ Mô tả: Website tuyển dụng ngành lập trình là nơi để đăng nhữ
     + Mô tả ngắn
     + Mô tả chi tiết
     + Danh sách các job
+
 1.4. API Mẫu
+
 - company (API danh sách các công ty)
     id: Id từng công ty
     companyName: Tên công ty
